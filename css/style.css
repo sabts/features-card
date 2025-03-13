@@ -20,31 +20,51 @@ nav ul{
 }
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'roboto', sans-serif;
     background-color:#F6F8FC;
-    justify-content: center;
-    padding: 2.9375rem 3.1875rem;
     text-align: center;
 }
-.sectionbox{
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2.9375rem 3.1875rem;
+
+}
+.card{
     width: 16.75rem ;
-    height: 16.75rem;
-    margin: auto;
     padding: 2rem;
     border-radius: 0.5rem;
     background-color: #FFF;
     box-shadow: 0.25rem 0.25rem 0.5rem  rgb(0 0 0/ 0.10);
 }
 .image{
-    width: 2.5rem;
-
+display: flex;
+    height:90px;
+    width: 90px;
+    padding: 1.25rem;
+    border-radius: 100%;
+    overflow: visible;
+    margin-inline: auto;
 }
 .image-pink{
-    padding: 1.5625remrem;
-    border-radius: 6.25rem;
     background-color: #F7DDFF;
-    margin-inline: auto;
-    box-shadow: 0 0 0 30px  #F7DDFF;
+    
+}
+.image-blue{
+    background-color: #DDE8FF;
+    
+}
+.image-red{
+    background-color: #FFDDDE;
+    
+}
+.image-green{
+    background-color: #DFFFDD;
+    
 }
 .title{
     font-weight: 600;
