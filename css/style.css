@@ -21,4 +21,48 @@ nav ul{
 body{
     margin: 0;
     font-family: sans-serif;
+    background-color:#F6F8FC;
+    justify-content: center;
+    padding: 2.9375rem 3.1875rem;
+    text-align: center;
+}
+.sectionbox{
+    width: 16.75rem ;
+    height: 16.75rem;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #FFF;
+    box-shadow: 0.25rem 0.25rem 0.5rem  rgb(0 0 0/ 0.10);
+}
+.image{
+    width: 2.5rem;
+
+}
+.image-pink{
+    padding: 1.5625remrem;
+    border-radius: 6.25rem;
+    background-color: #F7DDFF;
+    margin-inline: auto;
+    box-shadow: 0 0 0 30px  #F7DDFF;
+}
+.title{
+    font-weight: 600;
+    font-size: 2rem;
+    color: #000;
+}
+.subtitle{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:#6B6B6B;
+}
+.caption{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+}
+.text{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #000;
 }
