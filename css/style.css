@@ -46,13 +46,28 @@ body{
 }
 .card{
     width: 16.75rem ;
+    height: 16rem;
     padding: 2rem;
     border-radius: 0.5rem;
     background-color: #FFF;
     box-shadow: 0.25rem 0.25rem 0.5rem  rgb(0 0 0/ 0.10);
 }
+@media (hover: hover){
+    .card-pink:hover{
+    background-color:#F0C8FE;
+}
+    .card-blue:hover{
+        background-color: #CADBFF;
+    }
+    .card-red:hover{
+        background-color: #FFCACA;
+    }
+    .card-green:hover{
+        background-color: #B4FFAF;
+    }
+}
 .image{
-display: flex;
+    display: flex;
     height:90px;
     width: 90px;
     padding: 1.25rem;
@@ -62,19 +77,15 @@ display: flex;
 }
 .image-pink{
     background-color: #F7DDFF;
-    
 }
 .image-blue{
     background-color: #DDE8FF;
-    
 }
 .image-red{
-    background-color: #FFDDDE;
-    
+    background-color: #FFDDDE;  
 }
 .image-green{
     background-color: #DFFFDD;
-    
 }
 .title{
     font-weight: 600;
