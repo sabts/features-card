@@ -32,7 +32,11 @@ body{
     gap: 2rem;
     align-items: center;
     justify-content: center;
-
+}
+@media screen and (width>758px){
+    .container{
+        flex-direction: row;
+    }
 }
 .card{
     width: 16.75rem ;
