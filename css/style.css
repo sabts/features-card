@@ -20,6 +20,7 @@ nav ul{
 }
 body{
     margin: 0;
+    padding: 2.9375rem 3.1875rem;
     font-family: 'roboto', sans-serif;
     background-color:#F6F8FC;
     text-align: center;
@@ -31,7 +32,6 @@ body{
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    padding: 2.9375rem 3.1875rem;
 
 }
 .card{
