@@ -36,6 +36,12 @@ body{
 @media screen and (width>758px){
     .container{
         flex-direction: row;
+
+    }
+}
+@media screen and (width>1400px) {
+    .container{
+        flex-wrap: nowrap;
     }
 }
 .card{
